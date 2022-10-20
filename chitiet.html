@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+ <title>Chi tiết phim</title>
+</head>
+<body>
+<style>
+ body {  
+font-family:Arial, Helvetica, sans-serif;   
+overflow-x: hidden;
+background-image: url(./brmain.webp);
+}
+ 
+img {   
+max-width: 100%;
+}
+ 
+.preview {  
+display: -webkit-box;   
+display: -webkit-flex;  
+display: -ms-flexbox;   
+display: flex;  
+-webkit-box-orient: vertical;   
+-webkit-box-direction: normal;  
+-webkit-flex-direction: column; 
+-ms-flex-direction: column; 
+flex-direction: column;
+} 
+ 
+@media screen and (max-width: 996px) { 
+.preview { 
+margin-bottom: 20px;
+}
+}
+ 
+.preview-pic {  
+-webkit-box-flex: 1;    
+-webkit-flex-grow: 1;   
+-ms-flex-positive: 1;   
+flex-grow: 1;
+}
+ 
+ 
+.card { 
+margin-top: 0px;    
+background: rgb(62, 61, 65);   
+padding: 3em;   
+line-height: 1.5em;
+width: 105%;
+} 
+ 
+@media screen and (min-width: 997px) { 
+.wrapper { 
+display: -webkit-box; 
+display: -webkit-flex; 
+display: -ms-flexbox; 
+display: flex;
+}
+}
+ 
+.details {  
+display: -webkit-box;
+    display: -webkit-flex;  
+display: -ms-flexbox;   
+display: flex;  
+-webkit-box-orient: vertical;   
+-webkit-box-direction: normal;  
+-webkit-flex-direction: column; 
+-ms-flex-direction: column; 
+flex-direction: column;
+}
+ 
+.colors {   
+-webkit-box-flex: 1;    
+-webkit-flex-grow: 1;   
+-ms-flex-positive: 1;   
+flex-grow: 1;
+}
+ 
+.product-title{   
+text-transform: UPPERCASE;  
+font-weight: bold;
+}
+ 
+.checked { 
+color: #ff9f1a;
+}
+ 
+.product-title, .rating{  
+margin-bottom: 15px;
+}
+ 
+.product-title {    
+margin-top: 0;
+}
+
+.color {    
+display: inline-block;  
+vertical-align: middle; 
+margin-right: 10px; 
+height: 2em;    
+width: 2em; 
+border-radius: 2px;
+}
+
+ 
+.add-to-cart, .like {   
+background: #ff9f1a;    
+padding: 1.2em 1.5em;   
+border: none;   
+text-transform: UPPERCASE;  
+font-weight: bold;  
+color: #fff;    
+text-decoration:none; 
+-webkit-transition: background .3s ease; 
+transition: background .3s ease;
+}
+ 
+.add-to-cart:hover, .like:hover {   
+background: #b36800;    
+color: #fff;    
+text-decoration:none;
+}
+
+ 
+@-webkit-keyframes opacity { 
+0% { opacity: 0; -webkit-transform: scale(3); transform: scale(3);} 
+100% { opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+} 
+ 
+@keyframes opacity { 
+0% { opacity: 0; -webkit-transform: scale(3); transform: scale(3);} 
+100% { opacity: 1; -webkit-transform: scale(1); transform: scale(1);}
+}
+iframe{
+ margin-top: 20px;
+ height: 100%;
+ margin-right: 10px;
+}
+h3{
+    color: #ebb66b;
+}
+p{
+    color: #ea9d31;
+    font-style: oblique;
+}
+.chitiet{
+    font-style: normal;
+    font-size: 15px;
+    color: #ebb66b
+}
+</style>
+
+ <div class="container"> 
+  <div class="card"> 
+
+    <div class="wrapper row"> 
+     <div class="preview col-md-6"> 
+      <div class="preview-pic tab-content"> 
+       <div class="tab-pane active" id="pic-1"><img src="./blackpanther.jfif" alt="">
+       </div> 
+       
+      </div>
+     </div> 
+     <div class="details col-md-6"> 
+      <h3 class="product-title">Black Panther: Chiến binh báo đen</h3> 
+      <div class="rating"> 
+       <div class="stars"> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star checked"></span> <span class="fa fa-star"></span> <span class="fa fa-star"></span> 
+       </div> <span class="review-no">123 đánh giá</span> 
+      </div> 
+     <p class="chitiet">Đạo diễn: Ryan Coogler </p>
+     <p class="chitiet"> Thời lượng: 120 phút</p>
+     <p class="chitiet"> Diễn viên:Michael B. Jordan, Chadwick Boseman, ...</p>
+     <br>
+      <p class="product-description">Chiến Binh Báo Đen - Black Panther kể về T’Challa (Black Panther) là hoàng tử, một nhà sáng chế tài ba của đất nước Wakanda nằm tại Châu Phi, nơi sở hữu nguồn kim loại cực hiếm: vibranium. Với nguồn tài nguyên giàu có cùng sự tiến bộ vượt bậc, Wakanda trở thành mục tiêu tấn công của nhiều quốc gia, đế chế suốt vài thiên niên kỷ, mục đích của những kẻ xâm lược là giành được số vũ khí khủng khiếp và của cải ở đất nước giàu có này. Là người đứng đầu đất nước, hoàng tử T’Challa sẽ phải bảo vệ người dân của mình khỏi những mưu đồ từ nước ngoại bang. Sở hữu khả năng tác chiến nhanh nhạy, bộ giáp và móng vuốt bằng vibranium, có thể nói Black Panther cũng là một siêu anh hùng trong thế giới Marvel.</p> 
+      </p> 
+      
+      <div class="action"> <a href="#" >            <button class="add-to-cart btn btn-default" type="button">MUA VÉ</button>            </a> <a href="#" target="_blank">            <button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>            </a> 
+      </div> 
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/xjDjIWPwcPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     </div> 
+    </div> 
+
+  </div>
+ </div> 
+</body>
+</html>
